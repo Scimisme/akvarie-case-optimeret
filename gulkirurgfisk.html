@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbles Univers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/gulkirurgfiskstyle.css">
+</head>
+
+<body>
+
+    <main>
+         <!--TILBAGE TIL STARTSIDEN-->
+        <a href="index.html" class="tilbage-knap"> <!--../ BETYDER MAN GÅR EN MAPPE TILBAGE-->
+             ← Tilbage til akvariet
+        </a>
+
+        <div id="info-gulkirurgfisk">
+          <button id="luk-info" class="luk-knap" aria-label="Luk"></button>
+          <h1 id="fisk-navn"></h1>
+          <p><strong>Føde:</strong> <span id="fisk-foede"></span></p>
+          <p><strong>Levevis:</strong> <span id="fisk-levevis"></span></p>
+          <p><strong>Levealder:</strong> <span id="fisk-levealder"></span></p>
+          <p><strong>Størrelse:</strong> <span id="fisk-stoerrelse"></span></p>
+          <p><strong>Humør:</strong> <span id="fisk-humoer"></span></p>
+          </div>
+
+        <img src="img/kirurgfisk-background.svg" 
+             alt="Kirurgfiskens Univers"
+             id="kirurgfisk-baggrund"
+             aria-label="Kirurgfiskens Univers">
+
+        <img src="img/skattekiste-statisk.svg" 
+             alt="Skattekiste" 
+             id="skattekiste">   
+
+          <div id="fiskeSamling">
+                <img src="img/yellow_fish.svg" alt="fisk1" class="gulfisk fisk1">
+                <img src="img/yellow_fish.svg" alt="fisk2" class="gulfisk fisk2">
+                <img src="img/yellow_fish.svg" alt="fisk3" class="gulfisk fisk3">
+                <img src="img/yellow_fish.svg" alt="fisk4" class="gulfisk fisk4">
+            </div>
+            
+             
+    </main>
+    <script src="js/gulkirurgfisk.js" defer></script>
+    
+</body>
+</html>

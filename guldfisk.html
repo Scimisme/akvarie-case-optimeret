@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldies univers</title>
+    <link rel="stylesheet" href="css/guldfiskstyle.css">
+    
+</head>
+<body>
+
+    <main>
+        <img src="img/guld-dag.svg" alt="Goldies undervandsunivers" id="guld-baggrund">
+
+        <section class="dag-nat-knapper">
+            <button id="solKnap">
+             <img src="img/sun.svg" alt="Vis dag">
+            </button>
+
+            <button id="maaneKnap">
+                <img src="img/moon.svg" alt="Vis nat">
+            </button>
+        </section>
+
+        <section id="scene" class="scene">
+            <img src="img/guldfisk.svg" class="fish" alt="guldfisken svømmer">
+            <img src="img/guldfisk.svg" class="fish" alt="guldfisken svømmer">
+            <img src="img/guldfisk.svg" class="fish" alt="guldfisken svømmer">
+        </section>
+
+        <!--TILBAGE TIL STARTSIDEN-->
+        <a href="index.html" class="tilbage-knap"> 
+             ← Tilbage til akvariet
+        </a>
+    
+<!-- SPØRGSMÅLSTEGN DER KUN VISES OM NATTEN -->
+    <button id="nat-knap" aria-label="Information om natten" hidden>
+     <span class="spoergsmålstegn">?</span>
+    </button>
+
+<!-- FAKTABOKS OM GULDFISKEN OM NATEN -->
+<div id="nat-info" class="info-boks" hidden>
+    <button id="luk-nat-info" aria-label="Luk">X</button>
+
+    <h1>Vidste du det?</h1>
+
+    <p>En guldfisk sover med åbne øjne!</p>
+</div>
+
+    </main>
+
+    <script src="js/guldfisk.js"></script>
+</body>
+</html>
