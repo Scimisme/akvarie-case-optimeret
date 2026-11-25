@@ -242,7 +242,7 @@ header {
 }
 
 /* Sø anemone univers */
-.sea-anemone-link {
+#sea-anemone-link {
    position: absolute;
    left: 2%;
    bottom: 2%;
