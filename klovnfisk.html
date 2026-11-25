@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sea Anemone</title>
-    <link rel="stylesheet" href="css/klovnfisk.css">
-</head>
-<body>
-    <section id="sea-anemone-scene" class="scene sea-anemone-scene">
-        <div class="sea-anemone-bg">
-            <img src="img/blue_fish.svg" id="Palettkirurg" class="fish1" alt="blå fisk">
-            <img src="img/clown_fish.svg" id="Klovnfisk" class="fish2" alt="klovnfisk">
-        </div>
 
-        <!--Link til main background-->
-        <a href="index.html" class="main-link">← Tilbage til akvariet</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sea Anemone</title>
+        <link rel="stylesheet" href="css/klovnfisk.css">
+    </head>
 
-        <!-- Intro tekst-->
-        <div class="intro-tekst"> 
-            <h1>Tryk rundt og udforsk akvariet!</h1>
-            <p>Tryk på fiskene og lær om deres egenskaber</p>
-        </div>
+    <body>
+        <main>
+            <section id="sea-anemone-scene" class="scene sea-anemone-scene">
+                <div class="sea-anemone-bg">
+                    <img src="img/blue_fish.svg" id="Palettkirurg" class="fish1" alt="blå fisk">
+                    <img src="img/clown_fish.svg" id="Klovnfisk" class="fish2" alt="klovnfisk">
+                </div>
 
-        <!-- Tale bobler-->
-        <div id="blue-fish-info" class="blue-fish-info" hidden>
-            <p>Av! Sø anemoner er giftige! Dem kan jeg ikke røre ved...</p>
-        </div>
+                <!--Link tilbage til main background-->
+                <a href="index.html" class="main-link">← Tilbage til akvariet</a>
 
-        <div id="clown-fish-info" class="clown-fish-info" hidden>
-            <p>Jeg er en klovnfisk! Jeg bor i sø anemoner, fordi de beskytter mig mod rovdyr.</p>
-        </div>
+                <!-- Infotekst øverst-->
+                <div class="intro-tekst"> 
+                    <h1>Tryk rundt og udforsk akvariet!</h1>
+                    <p>Tryk på fiskene og lær om deres egenskaber</p>
+                </div>
 
-    </section>
+                <!-- Talebobler-->
+                <div id="blue-fish-info" class="blue-fish-info" hidden>
+                    <p>Av! Søanemoner er giftige! Dem kan jeg ikke røre ved...</p>
+                </div>
 
-    <div id="tooltip" class="tooltip" aria-live="polite"></div>
-    <script src="js/klovnfisk.js"></script>
-</body>
+                <div id="clown-fish-info" class="clown-fish-info" hidden>
+                    <p>Jeg er en klovnfisk! Jeg bor i søanemoner, fordi de beskytter mig mod rovdyr.</p>
+                </div>
+
+            </section>
+
+            <div id="tooltip" class="tooltip" aria-live="polite"></div>
+        </main>
+
+        <script src="js/klovnfisk.js"></script>
+    </body>
 </html>
