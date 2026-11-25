@@ -1,9 +1,7 @@
 /* Barlow font import */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 /* Reset CSS */
-
 * {
    padding: 0;
    margin: 0;
@@ -12,7 +10,7 @@
    position: relative;
 }
 
-/*INTRODUKTION TIL BØRN*/
+/*Infoboks øverst*/
 .intro-tekst {
    position: absolute;
    top: 4%;
@@ -30,12 +28,17 @@
    z-index: 10;
 }
 
-.intro-tekst h1 {
+h1 {
    font-size: 20px;
    margin-bottom: 8px;
 }
 
-.intro-tekst p {
+h2 {
+   font-size: 16px;
+   margin-bottom: 15px;
+}
+
+p {
    font-size: 14px;
 }
 
@@ -101,28 +104,26 @@ header {
    width: var(--fish-w);
    max-width: 28vw;
    z-index: 1;
-   cursor: pointer; /* viser en hånd, så man kan se, at bilerne kan klikkes */
+   cursor: pointer; 
 }
 
 .fish1 {
    bottom: 5vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   left: -30vw; 
    animation: fish1 12s linear infinite;
    width: 400px;
    max-width: 100%;
    z-index: 10;
 }
 
-
 @keyframes fish1 {
    0%   { transform: translateX(0) rotateY(0deg); }
    100% { transform: translateX(130vw) rotateY(0deg); }
 }
 
-
 .fish2 {
    bottom: 40vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   left: -30vw; 
    animation: fish2 15s linear infinite;
    width: 400px;
    max-width: 100%;
@@ -136,7 +137,7 @@ header {
 
 .fish3 {
    bottom: 60vh;
-   left: -30vw; /* starter 30vw uden for skærmen til venstre */
+   left: -30vw; 
    animation: fish3 9s linear infinite;
    z-index: 10;
 }
@@ -185,8 +186,6 @@ header {
    100% { transform: translateX(300vw) rotateY(0deg); }
 }
 
-
-
 .tooltip {
    position: fixed;
    right: 16px;
@@ -209,7 +208,6 @@ header {
    opacity: 1;
    transform: translateY(0);
 }
-
 
 /* SHELDONS UNIVERS */
 .grotte-link {
@@ -307,8 +305,8 @@ header {
 }
 
 #sea_anemone {
-   width: 100%;       /* fylder linket ud */
-   height: auto;      /* beholder de rigtige proportioner */
+   width: 100%;       
+   height: auto;      
    display: block;
    transition: transform 0.3s ease;
 }
