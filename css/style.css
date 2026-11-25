@@ -314,3 +314,24 @@ header {
 #sea_anemone.aktiv {
    transform: scale(1.1);
 }
+
+/* Klovnfisk univers */
+.klovnfisk1,
+.klovnfisk2 {
+   position: absolute;
+   width: 900px;
+   max-width: 100%;
+   z-index: 1;
+   cursor: pointer;
+}
+
+.klovnfisk1 {
+   bottom: 20vh;
+   left: 2vw;
+}
+
+.klovnfisk2 {
+   bottom: 5vh;
+   right: 2.5vw;
+   transform: rotateY(180deg);
+}
